@@ -1,0 +1,59 @@
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- IDE ----------
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated/
+.factorypath
+bin/
+
+# VS Code
+.vscode/
+
+# ---------- Gradle / Build ----------
+.gradle/
+build/
+**/build/
+
+# JAR/archives (산출물 업로드 방지)
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+
+# 단, Gradle Wrapper JAR은 반드시 포함
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---------- Logs / Temp ----------
+logs/
+**/logs/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---------- Env / Secrets (원하면 사용) ----------
+.env
+.env.*
+*.env
+application-*.yml
+application-*.yaml
+application-*.properties
+!.env.example
+!application.yml
